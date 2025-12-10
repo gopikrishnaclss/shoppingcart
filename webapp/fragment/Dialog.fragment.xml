@@ -1,0 +1,46 @@
+<c:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:c="sap.ui.core"
+    xmlns:l="sap.ui.layout"
+    controllerName="shoppingcart.controller.category"
+>
+    <ViewSettingsDialog
+        id="filter" 
+        confirm=".onViewSettingsDialogConfirm"
+        cancel=".onViewSettingsDialogCancel"
+    >
+        <filterItems>
+            <ViewSettingsFilterItem text="{i18n>filter1}" >
+                <items>
+                    <ViewSettingsItem text="Avaliable" key="true"/>
+                    <ViewSettingsItem text="Out of stock" key="false"/>  
+                </items>
+            </ViewSettingsFilterItem>
+            <!-- <ViewSettingsCustomItem text="{i18n>filter2}">
+                <customControl>
+                    <l:VerticalLayout
+						width="100%"
+						class="sapUiContentPadding">
+						<RangeSlider
+							id="rangeSlider"
+							width="100%"
+							value2="5000"
+							class="sapUiSmallMarginTop"
+							max="5000"
+							step="10"
+							change="priceChange"/>
+					</l:VerticalLayout>
+                </customControl>
+            </ViewSettingsCustomItem> -->
+            <ViewSettingsFilterItem
+                text="{i18n>filter3}"
+                items="{cat>/filterOptions/1}"
+            >
+                <items>
+                    <ViewSettingsItem text="{cat>name}"/>
+                </items>
+            </ViewSettingsFilterItem>
+        </filterItems>
+    </ViewSettingsDialog>
+    
+</c:FragmentDefinition>

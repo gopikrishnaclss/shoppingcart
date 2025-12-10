@@ -1,0 +1,76 @@
+/* Enter your custom styles here */
+.noPanelBorder .sapMPanelHdr {
+    border-bottom: none !important;
+}
+
+.forMargin{
+    margin-left: 1000px;
+}
+
+.forBackground{
+    background-color: white;
+}
+
+.customBold {
+    font-weight: 700; 
+}
+
+.customText{
+    color:dimgray;
+    font-weight: 500;
+}
+.greenTextColor {
+  color: green;
+}
+
+.redTextColor {
+  color: red;
+}
+
+
+.textEditor{
+    font-weight: bold;
+    
+}
+
+.forVbox{
+    background-color:white;
+}
+
+.textColor{
+    color: dimgray;
+}
+
+.myHBoxMargin{
+    margin: 10px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardDesign {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    width: 200px;
+    text-align: center;
+}
+
+
+.panelBg{
+    background-color: black;
+}
+
+.availableText {
+  color: green !important;
+}
+.outOfStockText {
+  color: red !important;
+}
+
+.green{
+    color: green;
+}

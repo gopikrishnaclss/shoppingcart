@@ -1,0 +1,95 @@
+<mvc:View
+    controllerName="shoppingcart.controller.Cart"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:t="sap.ui.table"
+    displayBlock="true"
+    height="100%"
+    width="100%">
+
+    <Page id="page3" title="cart" showHeader="true" height="100%" width="100%" showNavButton="true"
+        navButtonPress="navBack">
+
+
+        <VBox
+            id="cartEmpty"
+            visible="true"
+            justifyContent="Center"
+            alignItems="Center"
+            class="forVbox"
+            height="100%">
+
+            <Image
+                src="/image/emptyCart.png"
+                width="400px"
+                height="400px"
+                class="sapUiMediumMarginTop" />
+
+            <Title
+                type="H1"
+                text="Cart is Empty"
+                class="textEditor" />
+        </VBox>
+
+
+        <VBox
+            id="cart2"
+            visible="false"
+            class="sapUiMediumMargin"
+            fitContainer="true"
+            height="100%">
+
+
+            <ScrollContainer
+                vertical="true"
+                horizontal="false"
+                focusable="true"
+                fitContainer="true"
+                style="max-height: 60vh; overflow-y: auto;">
+
+                <Table items="{ path : 'cartData>/cart'}" id="idCartTable">
+                    <columns>
+                        <Column>
+                            <Text text="Product Name" />
+                        </Column>
+                        <Column>
+                            <Text text="Price" />
+                        </Column>
+                        <Column>
+                            <Text text="Quantity" />
+                        </Column>
+                        <Column>
+                            <Text text="Total" />
+                        </Column>
+                        <Column>
+                            <Text text="Remove" />
+                        </Column>
+                    </columns>
+                    <items>
+                        <ColumnListItem>
+                            <cells>
+                                <ObjectIdentifier title="{cartData>name}"
+                                    text="{cartData>description}" />
+                                <Text class="textColor" text="{cartData>price}" />
+                                <HBox>
+                                    <Button icon="sap-icon://less" press="onDecreaseQuantity" />
+                                    <Input editable="false" value="{cartData>quantity}" width="3rem"
+                                        textAlign="Center" />
+                                    <Button icon="sap-icon://add" press="onIncreaseQuantity" />
+                                </HBox>
+                                <Text class="textColor" text="{cartData>total}" />
+                                <Button icon="sap-icon://decline" press="removeButton" />
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+                </Table>
+                <HBox justifyContent="End" class="sapUiSmallMarginTop">
+                    <Button text="checkOut" type="Emphasized" press="onCheckout" />
+                </HBox>
+            </ScrollContainer>
+
+
+        </VBox>
+    </Page>
+
+</mvc:View>

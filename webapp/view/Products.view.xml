@@ -1,0 +1,56 @@
+<mvc:View
+    controllerName="shoppingcart.controller.Products"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    displayBlock="true"
+    height="100%"
+    width="100%"
+    
+>
+
+    <Panel id="Page2" headerText="{i18n>productcat}">
+        
+        <VBox class="sapUiTinyMarginTop">
+            <SearchField
+                id="searchField"
+                placeholder="Search products..."
+                liveChange="onSearch"
+                width="100%" />
+            <List
+                id="categoryList"
+                headerText="Products"
+                headerLevel="H2"
+                items="{cat>/categories}"
+                
+            >
+                <StandardListItem
+                    type="Active"
+                    press="select"
+                    title="{cat>name}"
+                    counter="{cat>count}"
+                    
+                    
+                    class="sapUiSmallMargin"
+                    
+                />
+            </List>
+            <List
+                visible="false"
+                id="productList"
+                headerText="Products"
+                headerLevel="H2"
+                items="{cat>/productList}"
+                
+            >
+                <StandardListItem
+                    type="Active"
+                    title="{cat>name}"
+                    class="sapUiSmallMargin"
+                    press=".select"
+                    
+                />
+            </List>
+        </VBox>
+
+    </Panel>
+</mvc:View>

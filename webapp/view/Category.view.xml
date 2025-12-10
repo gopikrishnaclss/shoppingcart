@@ -1,0 +1,131 @@
+<mvc:View
+    controllerName="shoppingcart.controller.category"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    displayBlock="true"
+    height="100%"
+    width="100%">
+
+    <Page
+        id="page1"
+        showHeader="true"
+        showNavButton="true"
+        navButtonPress=".onNavBack"
+        height="100%"
+        width="100%">
+
+        <customHeader>
+            <Bar>
+                <contentLeft>
+                    
+                        <Button
+                            icon="sap-icon://nav-back"
+                            press="onNavBack"
+                            class="sapUiTinyMarginEnd"
+                        />
+                        
+                    
+                </contentLeft>
+                <contentMiddle>
+                    
+                </contentMiddle>
+                <contentRight>
+                    <Button icon="sap-icon://employee" tooltip="User Profile" />
+                    <Button icon="sap-icon://cart" press="toCart" tooltip="Shopping Cart" />
+                </contentRight>
+            </Bar>
+        </customHeader>
+
+        <HBox width="100%" height="100%" fitContainer="true" wrap="Wrap" class="forBackground">
+            <VBox width="30%" maxWidth="400px" minWidth="320px" height="100%" fitContainer="true">
+                <Toolbar >
+                    <Title text="{product>/title}" class="sapUiLargeMarginEnd" />
+                    <ToolbarSpacer />
+                    <Button icon="sap-icon://filter" press=".openDialog"/>
+                </Toolbar>
+                <List
+                    id="idProductsList"
+                    items="{product>/products}"
+                    width="100%"
+                    height="100%"
+                    mode="SingleSelectMaster"
+                    selectionChange=".onItemSelect">
+                    <CustomListItem>
+                        <HBox width="90%" class="sapUiTinyMargin">
+                            <Image
+                                src="/image/HT-2001.jpg"
+                                width="4rem"
+                                height="4rem"
+                                class="sapUiTinyMarginEnd" />
+                            <VBox width="100%">
+                                <HBox justifyContent="SpaceBetween">
+                                    <Text text="{product>name}"
+                                        class="sapUiSmallMarginBottom sapMTextBold" />
+                                    <VBox alignItems="End">
+                                        <Text text="{product>price} EUR" class="sapMTextBold" />
+                                        <Text text="{product>currency}" />
+                                    </VBox>
+                                </HBox>
+                                <Text text="{product>description}" class="sapUiTinyMarginBottom" />
+                                <HBox justifyContent="SpaceBetween">
+
+                                    <Link text="Compare" press=".onComparePress" />
+                                </HBox>
+                            </VBox>
+                        </HBox>
+                    </CustomListItem>
+                </List>
+            </VBox>
+
+            <VBox width="70%" minWidth="320px" height="100%" fitContainer="true">
+
+                
+                <Panel id="carouselPanel" visible="true">
+                    <VBox justifyContent="Center" alignItems="Center">
+                        <Image src="/image/HT-2001.jpg"  width="500px"/>
+                    </VBox>
+                </Panel>
+
+                
+                <Panel id="detailPanel" visible="false" class="sapUiContentPadding">
+                    <content>
+                        <Title titleStyle="H2" text="{selectedItem>/name}" />
+                        <VBox class="sapUiLargeMargin">
+                            <HBox justifyContent="SpaceBetween" width="100%">
+                                <Title text="{selectedItem>/name}" titleStyle="H3" />
+                                <Text text="{selectedItem>/price} EUR" class="customBold" />
+                            </HBox>
+                            <VBox>
+                                <HBox justifyContent="SpaceBetween" width="100%"
+                                    class="sapUiMediumMarginTop">
+                                    <Text text="{selectedItem>/manufacturer}" class="customText" />
+                                    <Text
+                                        text="{selectedItem>/availability}" />
+
+                                </HBox>
+                                <Text text="{selectedItem>/description}"
+                                    class="sapUiSmallMarginTop customText" />
+                                <Text text="{selectedItem>/weight}"
+                                    class="sapUiSmallMarginTop customText" />
+                                <Text text="{selectedItem>/measures}"
+                                    class="sapUiSmallMarginTop customText" />
+
+
+                            </VBox>
+                            <HBox width="100%" justifyContent="Center" alignItems="Center">
+                                <Image src="/image/HT-2001.jpg" width="8rem" height="8rem" />
+                            </HBox>
+                            <Toolbar >
+                                <ToolbarSpacer />
+                                <Button type="Emphasized" text="Add to cart" press="onAddToCartButtonPress"/>
+                            </Toolbar>
+
+                        </VBox>
+                    </content>
+                </Panel>
+
+            </VBox>
+        </HBox>
+    </Page>
+
+</mvc:View>

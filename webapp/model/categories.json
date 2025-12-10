@@ -1,0 +1,546 @@
+{
+  "categories": [
+    {
+      "name": "Accessories",
+      "id": "Accessories",
+      "count": 4
+    },
+    {
+      "name": "Computer System Accessories",
+      "id": "Computer System Accessories",
+      "count": 3
+    },
+    {
+      "name": "Desktop Computers",
+      "id": "Desktop Computers",
+      "count": 2
+    },
+    {
+      "name": "Flat Screen TVs",
+      "id": "Flat Screen TVs",
+      "count": 3
+    },
+    {
+      "name": "Flat Screens",
+      "id": "Flat Screens",
+      "count": 2
+    },
+    {
+      "name": "Graphics Card",
+      "id": "Graphics Card",
+      "count": 3
+    },
+    {
+      "name": "Keyboards",
+      "id": "Keyboards",
+      "count": 2
+    },
+    {
+      "name": "Laptops",
+      "id": "Laptops",
+      "count": 4
+    },
+    {
+      "name": "Mice",
+      "id": "Mice",
+      "count": 2
+    },
+    {
+      "name": "Printers",
+      "id": "Printers",
+      "count": 2
+    }
+  ],
+  "productList": [
+    {
+      "categoryId": "Accessories",
+      "name": "10\" Portable DVD player",
+      "price": 449.99 ,
+      "status": "Available",
+      "manufacturer": "Titanium",
+      "compare": true,
+      "image": "images/dvd_player.png",
+      "availability": "Available",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Accessories",
+      "name": "7\" Widescreen Portable DVD Player w MP3",
+      "price": 249.99 ,
+      "status": "Out of Stock",
+      "manufacturer": "Titanium",
+      "compare": true,
+      "image": "images/widescreen_player.png",
+      "availability": "Out of Stock",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Accessories",
+      "name": "Audio/Video Cable Kit - 4m",
+      "price": 29.99 ,
+      "status": "Discontinued",
+      "manufacturer": "Titanium",
+      "compare": true,
+      "image": "images/cable_kit.png",
+      "availability": "Out of Stock",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Accessories",
+      "name": "Beam Breaker B-1",
+      "price": 469.00 ,
+      "status": "Out of Stock",
+      "manufacturer": "Titanium",
+      "compare": true,
+      "image": "images/beam_breaker.png",
+      "availability": "Out of Stock",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Computer System Accessories",
+      "name": "USB Keyboard",
+      "price": 39.99,
+      "status": "Available",
+      "manufacturer": "Logitech",
+      "compare": false,
+      "image": "images/keyboard.png",
+      "availability": "Available",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Computer System Accessories",
+      "name": "Wireless Mouse",
+      "price": 25.99,
+      "status": "Available",
+      "manufacturer": "Logitech",
+      "compare": true,
+      "image": "images/mouse.png",
+      "availability": "Available",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Computer System Accessories",
+      "name": "Webcam HD",
+      "price": 89.99,
+      "status": "Available",
+      "manufacturer": "Logitech",
+      "compare": false,
+      "image": "images/webcam.png",
+      "availability": "Available",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Desktop Computers",
+      "name": "Gaming Desktop GX100",
+      "price": 999.99,
+      "status": "Available",
+      "manufacturer": "Dell",
+      "compare": true,
+      "image": "images/gaming_desktop.png",
+      "availability": "Available",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Desktop Computers",
+      "name": "Office Desktop D200",
+      "price": 599.99 ,
+      "status": "Out of Stock",
+      "manufacturer": "HP",
+      "compare": false,
+      "image": "images/office_desktop.png",
+      "availability": "Out of Stock",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Flat Screen TVs",
+      "name": "42\" Smart LED TV",
+      "price": 399.99 ,
+      "status": "Available",
+      "manufacturer": "Samsung",
+      "compare": true,
+      "image": "images/smart_led_tv.png",
+      "availability": "Available",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Flat Screen TVs",
+      "name": "55\" OLED TV",
+      "price": 799.99,
+      "status": "Available",
+      "manufacturer": "LG",
+      "compare": true,
+      "image": "images/oled_tv.png",
+      "availability": "Available",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Flat Screen TVs",
+      "name": "65\" 4K TV",
+      "price": 999.99 ,
+      "status": "Out of Stock",
+      "manufacturer": "Sony",
+      "compare": false,
+      "image": "images/4k_tv.png",
+      "availability": "Out of Stock",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Flat Screens",
+      "name": "24\" Computer Monitor",
+      "price": 149.99,
+      "status": "Available",
+      "manufacturer": "Dell",
+      "compare": true,
+      "image": "images/monitor_24.png",
+      "availability": "Available",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Flat Screens",
+      "name": "27\" Computer Monitor",
+      "price": 199.99 ,
+      "status": "Discontinued",
+      "manufacturer": "HP",
+      "compare": false,
+      "image": "images/monitor_27.png",
+      "availability": "Out of Stock",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Graphics Card",
+      "name": "NVIDIA GeForce RTX 3080",
+      "price": 699.99,
+      "status": "Available",
+      "manufacturer": "NVIDIA",
+      "compare": true,
+      "image": "images/rtx_3080.png",
+      "availability": "Available",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Graphics Card",
+      "name": "AMD Radeon RX 6800",
+      "price": 579.99,
+      "status": "Available",
+      "manufacturer": "AMD",
+      "compare": false,
+      "image": "images/radeon_6800.png",
+      "availability": "Available",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Graphics Card",
+      "name": "NVIDIA GeForce GTX 1660",
+      "price": 249.99,
+      "status": "Out of Stock",
+      "manufacturer": "NVIDIA",
+      "compare": false,
+      "image": "images/gtx_1660.png",
+      "availability": "Out of Stock",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Graphics Card",
+      "name": "NVIDIA GeForce RTX 3080",
+      "price": 699.99 ,
+      "status": "Available",
+      "manufacturer": "NVIDIA",
+      "compare": true,
+      "image": "images/rtx_3080.png",
+      "availability": "Available",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Graphics Card",
+      "name": "AMD Radeon RX 6800",
+      "price": 579.99,
+      "status": "Available",
+      "manufacturer": "AMD",
+      "compare": false,
+      "image": "images/radeon_6800.png",
+      "availability": "Available",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Graphics Card",
+      "name": "NVIDIA GeForce GTX 1660",
+      "price": 249.99 ,
+      "status": "Out of Stock",
+      "manufacturer": "NVIDIA",
+      "compare": false,
+      "image": "images/gtx_1660.png",
+      "availability": "Out of Stock",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Keyboards",
+      "name": "Mechanical Keyboard Pro",
+      "price": 129.99 ,
+      "status": "Available",
+      "manufacturer": "Corsair",
+      "compare": true,
+      "image": "images/mechanical_keyboard.png",
+      "availability": "Available",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Keyboards",
+      "name": "Wireless Keyboard",
+      "price": 79.99,
+      "status": "Out of Stock",
+      "manufacturer": "Logitech",
+      "compare": false,
+      "image": "images/wireless_keyboard.png",
+      "availability": "Out of Stock",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Laptops",
+      "name": "Gaming Laptop X200",
+      "price": 899.99 ,
+      "status": "Available",
+      "manufacturer": "Dell",
+      "compare": true,
+      "image": "images/gaming_laptop.png",
+      "availability": "Available",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Laptops",
+      "name": "Ultrabook Z10",
+      "price": 1299.99 ,
+      "status": "Available",
+      "manufacturer": "HP",
+      "compare": false,
+      "image": "images/ultrabook.png",
+      "availability": "Available",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Laptops",
+      "name": "Office Laptop B350",
+      "price": 599.99 ,
+      "status": "Out of Stock",
+      "manufacturer": "Lenovo",
+      "compare": true,
+      "image": "images/office_laptop.png",
+      "availability": "Out of Stock",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Laptops",
+      "name": "Chromebook C100",
+      "price": 349.99 ,
+      "status": "Available",
+      "manufacturer": "Acer",
+      "compare": false,
+      "image": "images/chromebook.png",
+      "availability": "Available",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Mice",
+      "name": "Wireless Mouse M510",
+      "price": 29.99 ,
+      "status": "Available",
+      "manufacturer": "Logitech",
+      "compare": true,
+      "image": "images/wireless_mouse.png",
+      "availability": "Available",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Mice",
+      "name": "Gaming Mouse G502",
+      "price": 59.99 ,
+      "status": "Out of Stock",
+      "manufacturer": "Logitech",
+      "compare": false,
+      "image": "images/gaming_mouse.png",
+      "availability": "Out of Stock",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Printers",
+      "name": "Laser Printer L200",
+      "price": 149.99 ,
+      "status": "Available",
+      "manufacturer": "HP",
+      "compare": true,
+      "image": "images/laser_printer.png",
+      "availability": "Available",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    },
+    {
+      "categoryId": "Printers",
+      "name": "Inkjet Printer I100",
+      "price": 89.99 ,
+      "status": "Discontinued",
+      "manufacturer": "Canon",
+      "compare": false,
+      "image": "images/inkjet_printer.png",
+      "availability": "Out of Stock",
+      "description": "10\" LCD Screen, storage battery holds up to 8 hours",
+      "weight": "0.84 KG",
+      "measures": "24 , 19.5 , 29"
+    }
+  ],
+  "products": {
+    "pic1": "https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg",
+    "pic2": "https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg",
+    "pic3": "https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg",
+    "screw": "https://images.pexels.com/photos/4827/nature-forest-industry-rails.jpg"
+  },
+  "filterOptions": [
+    [
+      {
+        "id": "Available",
+        "name": "Available"
+      },
+      {
+        "id": "out of stock",
+        "name": "out of stock"
+      }
+    ],
+    [
+      {
+        "id": "Accessories",
+        "name": "Titanium"
+      },
+      {
+        "id": "Computer System Accessories",
+        "name": "Logitech"
+      },
+      {
+        "id": "Desktop Computers",
+        "name": "Dell"
+      },
+      {
+        "id": "Desktop Computers",
+        "name": "HP"
+      },
+      {
+        "id": "Flat Screen TVs",
+        "name": "Samsung"
+      },
+      {
+        "id": "Flat Screen TVs",
+        "name": "LG"
+      },
+      {
+        "id": "Flat Screen TVs",
+        "name": "Sony"
+      },
+      {
+        "id": "Flat Screens",
+        "name": "Dell"
+      },
+      {
+        "id": "Flat Screens",
+        "name": "HP"
+      },
+      {
+        "id": "Graphics Card",
+        "name": "NVIDIA"
+      },
+      {
+        "id": "Graphics Card",
+        "name": "AMD"
+      },
+      {
+        "id": "Keyboards",
+        "name": "Corsair"
+      },
+      {
+        "id": "Keyboards",
+        "name": "Logitech"
+      },
+      {
+        "id": "Laptops",
+        "name": "Dell"
+      },
+      {
+        "id": "Laptops",
+        "name": "HP"
+      },
+      {
+        "id": "Laptops",
+        "name": "Lenovo"
+      },
+      {
+        "id": "Laptops",
+        "name": "Acer"
+      },
+      {
+        "id": "Mice",
+        "name": "Logitech"
+      },
+      {
+        "id": "Printers",
+        "name": "HP"
+      },
+      {
+        "id": "Printers",
+        "name": "Canon"
+      }
+    ]
+  ]
+}
